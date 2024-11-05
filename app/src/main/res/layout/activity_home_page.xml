@@ -63,7 +63,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -103,7 +103,7 @@
                     android:paddingBottom="15dp">
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/textView1"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="20dp"
@@ -113,7 +113,7 @@
                         android:textColor="@color/white" />
 
                     <ImageView
-                        android:id="@+id/imageView2"
+                        android:id="@+id/imageView1"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_weight="1"
@@ -135,7 +135,7 @@
                     android:paddingBottom="15dp">
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/textView2"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="20dp"
@@ -167,7 +167,7 @@
                     android:paddingBottom="15dp">
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/textView3"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="20dp"
@@ -177,7 +177,7 @@
                         android:textColor="@color/white" />
 
                     <ImageView
-                        android:id="@+id/imageView2"
+                        android:id="@+id/imageView3"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_weight="1"
@@ -199,7 +199,7 @@
                     android:paddingBottom="15dp">
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/textView4"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="20dp"
@@ -209,7 +209,7 @@
                         android:textColor="@color/white" />
 
                     <ImageView
-                        android:id="@+id/imageView2"
+                        android:id="@+id/imageView4"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_weight="1"
@@ -231,7 +231,7 @@
                     android:paddingBottom="15dp">
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/textView5"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="20dp"
@@ -241,7 +241,7 @@
                         android:textColor="@color/white" />
 
                     <ImageView
-                        android:id="@+id/imageView2"
+                        android:id="@+id/imageView5"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_weight="1"
@@ -273,7 +273,7 @@
                         android:textColor="@color/white" />
 
                     <ImageView
-                        android:id="@+id/imageView2"
+                        android:id="@+id/imageView6"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_weight="1"
@@ -294,7 +294,7 @@
                     android:paddingBottom="15dp">
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/textView7"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="20dp"
@@ -304,7 +304,7 @@
                         android:textColor="@color/white" />
 
                     <ImageView
-                        android:id="@+id/imageView2"
+                        android:id="@+id/imageView7"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_weight="1"
@@ -315,6 +315,38 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="2dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Mata Kuliah : 8"
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/books" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:background="@color/white"
                     android:orientation="horizontal"></LinearLayout>
 
