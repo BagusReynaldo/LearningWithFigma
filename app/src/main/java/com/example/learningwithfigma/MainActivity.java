@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        Button btnLogin = findViewById(R.id.btn_login);
+        Button btnLogin = findViewById(R.id.btn_hitung);
         Button btnRegister = findViewById(R.id.btn_register);
 
         btnLogin.setOnClickListener(v -> {

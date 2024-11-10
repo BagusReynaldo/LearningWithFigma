@@ -22,7 +22,7 @@ public class FormLogin extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_form_login);
 
-        Button btnLogin = findViewById(R.id.btn_login);
+        Button btnLogin = findViewById(R.id.btn_hitung);
         ImageButton btnBack = findViewById(R.id.btn_back);
 
         btnLogin.setOnClickListener(v -> {
@@ -51,7 +51,7 @@ public class FormLogin extends AppCompatActivity {
             Toast.makeText(this, "Semua field harus diisi", Toast.LENGTH_SHORT).show();
             return;
         } else {
-            Intent intent = new Intent(FormLogin.this, HomePage.class);
+            Intent intent = new Intent(FormLogin.this, Gaji.class);
             intent.putExtra("username", txtUser.getText().toString());
             startActivity(intent);
         }

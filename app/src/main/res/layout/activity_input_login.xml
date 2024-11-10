@@ -87,7 +87,7 @@
         android:paddingTop="30dp">
 
         <Button
-            android:id="@+id/btn_login"
+            android:id="@+id/btn_hitung"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
