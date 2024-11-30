@@ -24,7 +24,6 @@ public class FormLogin extends AppCompatActivity {
 
         Button btnLogin = findViewById(R.id.btn_hitung);
         ImageButton btnBack = findViewById(R.id.btn_back);
-
         btnLogin.setOnClickListener(v -> {
             login(v);
         });
@@ -38,7 +37,6 @@ public class FormLogin extends AppCompatActivity {
             return insets;
         });
     }
-
     public void login(View view) {
         EditText txtUser = findViewById(R.id.txt_user);
         EditText txtPass = findViewById(R.id.txt_pass);
@@ -51,7 +49,7 @@ public class FormLogin extends AppCompatActivity {
             Toast.makeText(this, "Semua field harus diisi", Toast.LENGTH_SHORT).show();
             return;
         } else {
-            Intent intent = new Intent(FormLogin.this, Gaji.class);
+            Intent intent = new Intent(FormLogin.this, ImplisitIntent.class);
             intent.putExtra("username", txtUser.getText().toString());
             startActivity(intent);
         }
